@@ -104,6 +104,8 @@ function FormAddFriend({ onAddFriend }) {
       balance: 0,
     };
     onAddFriend(newFriend);
+    setImage("https://i.pravatar.cc/48");
+    setName("");
   }
   return (
     <form className="form-add-friend" onSubmit={handleSubmit}>
